@@ -13,7 +13,8 @@ body {
   padding-top: 0;
   margin:0;
   font-weight: 600;
-  text-align: center;
+  text-align: center; 
+font-style: italic;
 }
 
 .sidebar h2 {
