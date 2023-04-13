@@ -38,7 +38,7 @@ font-style: italic;
   font-weight: 400;
   text-align: center;
 }
-
+p.indent {text-indent: 20px;}
 #colophon {
   padding-top: 20px;
 }
