@@ -5,7 +5,7 @@ body {
 }
 
 .sidebar h1 {
-  font-family: "Tangerine", serif;
+  font-family: "Abel", serif;
   font-size: 350%;
   color: #4CCCE3;
   display: block;
@@ -18,7 +18,7 @@ font-style: italic;
 }
 
 .sidebar h2 {
-  font-family: "Playfair Display", serif;
+  font-family: "Abel", serif;
   font-size: 150%;
   color: #4CCCE3;
   display: block;
@@ -30,7 +30,7 @@ font-style: italic;
 }
 
 .sidebar h3{
-  font-family: "Playfair Display", serif;
+  font-family: "Abel", serif;
   color: #4CCCE3;
   display: block;
   padding: 16px;
@@ -39,26 +39,27 @@ font-style: italic;
   text-align: center;
 }
 p.indent {text-indent: 20px;}
+.bolded {font-weight: bold;}
 #colophon {
   padding-top: 20px;
 }
 
 .content h1 {
-  font-family: "Playfair Display", serif;
+  font-family: "Abel", serif;
 }
 
 .content h2 {
-  font-family: "Playfair Display", serif;
+  font-family: "Abel", serif;
 }
 
 .content p {
-  font-family: "Roboto", serif;
+  font-family: "Playfair Display", serif;
   font-size: 130%;
   
 }
 
 .content li {
-  font-family: "Roboto", serif;
+  font-family: "Playfair Display", serif;
   font-size: 130%;  
 }
 
@@ -71,7 +72,7 @@ p.indent {text-indent: 20px;}
 }
 
 .content a {
-  color: #4c4a6c;
+  color: #73BFBF;
   font-weight: 600;
   text-decoration: none;
 }
@@ -135,18 +136,18 @@ div.content {
 
 /* Active/current link */
 .sidebar a.active {
-  background-color: #4c4a6c;
+  background-color: #262536;
   color: #4CCCE3;
 }
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-  background-color: #393751;
+  background-color: #262536;
   color: #4CCCE3;
 }
 
 #colophon a:hover:not(.active) {
-  background-color: 262536;
+  background-color:#262536;
   color: #4CCCE3;
 }
 
