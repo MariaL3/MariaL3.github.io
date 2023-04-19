@@ -92,21 +92,21 @@ p.indent {text-indent: 20px;}
 
 /* Page content. The content margin-left must match the sidebar width */
 div.content {
-  margin-left: 350px;    /* <--- CHANGE US TOGETHER*/
-  padding-top: 75px;
-  padding-left: 25px;
-  padding-right: 16px;
+  margin-left: 0px;    
   height: 1000px;
+    padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
  /* The side navigation menu */
 .sidebar {
-  margin: 0;
-  padding: 0;
-  width: 350px;          /* <--- CHANGE US TOGETHER */
+  width: 100%;
+    height: auto;
+    position: relative;
+    margin: 0;
+  padding: 0;         
   background-color: #267F7F;
-  position: fixed;
-  height: 100%;
   overflow: auto;
 }
 
@@ -120,6 +120,7 @@ div.content {
   text-decoration: none;
   text-align: right;
   font-size: 125%;
+float: left;
 }
 
 #colophon a {
@@ -159,7 +160,7 @@ div.content {
     position: relative;
   }
   .sidebar a {float: left;}
-  div.content {margin-left: 0;}
+ 
   
   div.content{
   padding-top: 30px;
